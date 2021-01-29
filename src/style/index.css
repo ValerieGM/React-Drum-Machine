@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: url("https://images.wallpaperscraft.com/image/guitar_musical_instrument_dark_159327_1280x720.jpg")
+    no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+.drum-machine {
+  position: absolute;
+  right: 170px;
+  bottom: 90px;
+	text-align: center;
+}
+
+h1 {
+  color: silver;
+}
+
+.display {
+  background-color: #9fbfdf;
+  color: black;
+  height: 5vh;
+  width: 100%;
+  align-items: center;
+  font-size: 3vh;
+}
+
+#drum {
+  width: 60vh;
+  height: 53vh;
+  padding-top: 1vh;
+}
+
+.drum-pad {
+  width: 14vh;
+  height: 12vh;
+  font-size: 6vh;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  background-color: silver;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 7px grey;
+  margin: 1.5vh;
+}
